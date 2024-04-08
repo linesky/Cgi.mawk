@@ -1,2 +1,3 @@
-# Cgi.mawk
-Mawk script server
+# command.line
+
+command line in the isolate eviron
