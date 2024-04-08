@@ -11,8 +11,11 @@ void sline(char *a){
 	f1=stdin;
 	if(f1==NULL)exit(1);
 		while(1){
+		        printf(" BLUE> ");
 			fgets(c,2070,f1);
 			if (strcmp(c,"\n\0")==0) break;
+			if (strcmp(c,"exit\n\0")==0) break;
+			if (strcmp(c,"EXIT\n\0")==0) break;
 			scommand(c);
 		}
 	
